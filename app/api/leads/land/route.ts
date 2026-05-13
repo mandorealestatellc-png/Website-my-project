@@ -23,7 +23,7 @@ export async function POST(req: NextRequest) {
 
     if (process.env.RESEND_API_KEY && process.env.NOTIFICATION_EMAIL) {
       await resend.emails.send({
-        from: "notifications@yourdomain.com",
+        from: "mandorealestatellc@gmail.com",
         to: process.env.NOTIFICATION_EMAIL,
         subject: `New Land Lead: ${name}`,
         html: `

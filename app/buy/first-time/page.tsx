@@ -1,0 +1,7 @@
+import { Metadata } from "next";
+import PageHero from "@/components/ui/PageHero";
+import LeadCapture from "@/components/home/LeadCapture";
+export const metadata: Metadata = { title: "First-Time Buyers Tucson", description: "Buying your first home in Tucson? Get guided support from start to keys." };
+export default function Page() {
+  return (<><PageHero label="First-Time Buyers" title="Your First Home.<br/><em>Done Right.</em>" subtitle="New to buying? I'll walk you through every step — pre-approval to closing — with clear communication and no pressure." dark={false}/><section className="py-20 bg-[#faf8f5]"><div className="container-site max-w-3xl"><div className="grid grid-cols-1 sm:grid-cols-2 gap-4">{[{t:"No Jargon",d:"I explain everything in plain language — no confusing terms, no assumptions about what you already know."},{t:"Timeline Clarity",d:"You'll always know where you are in the process and what comes next."},{t:"Budget Guidance",d:"I help you understand the real cost of buying — purchase price, closing costs, and ongoing expenses."},{t:"Negotiation Support",d:"First-time buyers often overpay. I make sure you're protected and getting fair value."}].map(i=><div key={i.t} className="bg-[#f2ede6] p-7"><div className="h-px w-6 bg-[#c8b89a] mb-4"/><h3 className="text-[#1a1a1a] text-xl mb-2" style={{fontFamily:"var(--font-cormorant)",fontWeight:400}}>{i.t}</h3><p className="text-[#6b6b6b] text-xs leading-relaxed">{i.d}</p></div>)}</div></div></section><LeadCapture /></>);
+}

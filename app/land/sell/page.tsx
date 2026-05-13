@@ -1,0 +1,7 @@
+import { Metadata } from "next";
+import PageHero from "@/components/ui/PageHero";
+import LeadCapture from "@/components/home/LeadCapture";
+export const metadata: Metadata = { title: "Sell Your Land Tucson", description: "Sell your vacant land in Tucson with a land-specific strategy from Armando Rosano." };
+export default function Page() {
+  return (<><PageHero label="Land" title="Sell Your Land.<br/><em>Get What It&rsquo;s Worth.</em>" subtitle="Land requires a different approach than selling a home. I work with landowners to price correctly, find the right buyer, and close clean." /><section className="py-20 bg-[#faf8f5]"><div className="container-site max-w-3xl"><div className="grid grid-cols-1 sm:grid-cols-2 gap-4">{[{t:"Land-Specific Pricing",d:"Comparable land sales, zoning analysis, and utility access all factor into the right price for your parcel."},{t:"Builder & Investor Reach",d:"Builders and investors are the most motivated land buyers. I market directly to them."},{t:"APN Research",d:"I pull county records, zoning maps, and utility data to understand exactly what you have."},{t:"Clean Transaction",d:"Land transactions have fewer moving parts. I keep it straightforward and communicate every step."}].map(i=><div key={i.t} className="bg-[#f2ede6] p-7"><div className="h-px w-6 bg-[#c8b89a] mb-4"/><h3 className="text-[#1a1a1a] text-xl mb-2" style={{fontFamily:"var(--font-cormorant)",fontWeight:400}}>{i.t}</h3><p className="text-[#6b6b6b] text-xs leading-relaxed">{i.d}</p></div>)}</div></div></section><LeadCapture /></>);
+}

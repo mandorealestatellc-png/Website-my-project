@@ -50,28 +50,22 @@ export default function AboutPage() {
 
               <div className="space-y-4 text-[#6b6b6b] text-sm leading-relaxed mb-8">
                 <p>
-                  I&rsquo;m Armando Rosano — a licensed REALTOR® with Real Broker serving
-                  the Tucson and Southern Arizona market. I work with sellers,
-                  buyers, investors, and landowners across every price point and
-                  property type.
+                  Armando Rosano is a Tucson-based real estate agent with Real
+                  Broker, serving sellers, buyers, and investors across Southern
+                  Arizona.
                 </p>
                 <p>
-                  My approach is direct and strategy-first. I look at every
-                  transaction through the lens of an investor — what do the
-                  numbers say, what does the market support, and what&rsquo;s the
-                  right move for this specific situation.
+                  Specializing in luxury properties, land, fix-and-flip
+                  investments, and off-market deals, Armando brings a strategic
+                  approach to every transaction.
                 </p>
                 <p>
-                  I specialize in traditional listings, distressed properties,
-                  luxury real estate, vacant land, and investment opportunities.
-                  Whether you need a full-service listing or a direct transaction
-                  — I can help navigate it.
+                  Whether you&rsquo;re looking to sell fast, find your dream home,
+                  or grow your real estate portfolio, Armando has the market
+                  knowledge and hustle to make it happen.
                 </p>
                 <p>
-                  Tucson is my market. I know the neighborhoods, the price
-                  trends, the builder activity, and the investment corridors.
-                  When you work with me, you get a real professional who
-                  communicates clearly and delivers results.
+                  Licensed in Arizona and proudly serving all of Southern Arizona.
                 </p>
               </div>
 
@@ -90,10 +84,10 @@ export default function AboutPage() {
               </div>
 
               <div className="flex flex-wrap gap-4">
-                <a href="tel:+15205550000" className="btn-dark inline-flex items-center gap-2">
-                  <Phone size={14} /> (520) 555-0000
+                <a href="tel:+15208090432" className="btn-dark inline-flex items-center gap-2">
+                  <Phone size={14} /> (520) 809-0432
                 </a>
-                <a href="mailto:armando@youremail.com" className="btn-outline-dark inline-flex items-center gap-2">
+                <a href="mailto:mandorealestatellc@gmail.com" className="btn-outline-dark inline-flex items-center gap-2">
                   <Mail size={14} /> Email Armando
                 </a>
               </div>

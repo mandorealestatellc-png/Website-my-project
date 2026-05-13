@@ -71,15 +71,15 @@ export default function LeadCapture() {
           <div className="mt-8 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-center gap-6 text-center">
             <div>
               <div className="text-[#6b6b6b] text-xs tracking-widest uppercase mb-1">Call or Text</div>
-              <a href="tel:+15205550000" className="text-[#c8b89a] hover:text-[#e8ddd0] transition-colors">
-                (520) 555-0000
+              <a href="tel:+15208090432" className="text-[#c8b89a] hover:text-[#e8ddd0] transition-colors">
+                (520) 809-0432
               </a>
             </div>
             <div className="h-px w-8 sm:h-8 sm:w-px bg-white/20" />
             <div>
               <div className="text-[#6b6b6b] text-xs tracking-widest uppercase mb-1">Email</div>
-              <a href="mailto:armando@youremail.com" className="text-[#c8b89a] hover:text-[#e8ddd0] transition-colors">
-                armando@youremail.com
+              <a href="mailto:mandorealestatellc@gmail.com" className="text-[#c8b89a] hover:text-[#e8ddd0] transition-colors">
+                mandorealestatellc@gmail.com
               </a>
             </div>
             <div className="h-px w-8 sm:h-8 sm:w-px bg-white/20" />

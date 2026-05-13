@@ -22,8 +22,8 @@ export default function ContactPage() {
         <div className="container-site">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { icon: <Phone size={20} className="text-[#c8b89a]" />, label: "Call or Text", value: "(520) 555-0000", href: "tel:+15205550000" },
-              { icon: <Mail size={20} className="text-[#c8b89a]" />, label: "Email", value: "armando@youremail.com", href: "mailto:armando@youremail.com" },
+              { icon: <Phone size={20} className="text-[#c8b89a]" />, label: "Call or Text", value: "(520) 809-0432", href: "tel:+15208090432" },
+              { icon: <Mail size={20} className="text-[#c8b89a]" />, label: "Email", value: "mandorealestatellc@gmail.com", href: "mailto:mandorealestatellc@gmail.com" },
               { icon: <MapPin size={20} className="text-[#c8b89a]" />, label: "Location", value: "Tucson, Arizona", href: undefined },
               { icon: <AtSign size={20} className="text-[#c8b89a]" />, label: "Instagram", value: "@armandorosano", href: "https://instagram.com" },
             ].map((item) => (

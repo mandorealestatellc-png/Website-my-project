@@ -121,11 +121,11 @@ export default function Navbar() {
             {/* CTA + Mobile toggle */}
             <div className="flex items-center gap-3">
               <a
-                href="tel:+15205550000"
+                href="tel:+15208090432"
                 className="hidden md:flex items-center gap-2 text-[#c8b89a] text-[0.8125rem] tracking-wide hover:text-[#e8ddd0] transition-colors"
               >
                 <Phone size={14} />
-                <span>(520) 555-0000</span>
+                <span>(520) 809-0432</span>
               </a>
               <Link href="/contact" className="hidden md:block btn-primary text-xs py-2.5 px-5">
                 Get Started
@@ -214,9 +214,9 @@ export default function Navbar() {
           </nav>
 
           <div className="p-6 border-t border-white/10 space-y-3">
-            <a href="tel:+15205550000" className="flex items-center gap-2 text-[#c8b89a] text-sm">
+            <a href="tel:+15208090432" className="flex items-center gap-2 text-[#c8b89a] text-sm">
               <Phone size={14} />
-              (520) 555-0000
+              (520) 809-0432
             </a>
             <Link
               href="/contact"
